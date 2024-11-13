@@ -12,47 +12,47 @@
 
 /** TPMSRxKeyState state */
 typedef enum {
-    TPMSRxKeyStateIDLE,
-    TPMSRxKeyStateBack,
-    TPMSRxKeyStateStart,
-    TPMSRxKeyStateAddKey,
+  TPMSRxKeyStateIDLE,
+  TPMSRxKeyStateBack,
+  TPMSRxKeyStateStart,
+  TPMSRxKeyStateAddKey,
 } TPMSRxKeyState;
 
 /** TPMSHopperState state */
 typedef enum {
-    TPMSHopperStateOFF,
-    TPMSHopperStateRunnig,
-    TPMSHopperStatePause,
-    TPMSHopperStateRSSITimeOut,
+  TPMSHopperStateOFF,
+  TPMSHopperStateRunnig,
+  TPMSHopperStatePause,
+  TPMSHopperStateRSSITimeOut,
 } TPMSHopperState;
 
 typedef enum {
-    TPMSLockOff,
-    TPMSLockOn,
+  TPMSLockOff,
+  TPMSLockOn,
 } TPMSLock;
 
 typedef enum {
-    TPMSViewVariableItemList,
-    TPMSViewSubmenu,
-    TPMSViewReceiver,
-    TPMSViewReceiverInfo,
-    TPMSViewWidget,
+  TPMSViewVariableItemList,
+  TPMSViewSubmenu,
+  TPMSViewReceiver,
+  TPMSViewReceiverInfo,
+  TPMSViewWidget,
 } TPMSView;
 
 /** TPMSTxRx state */
 typedef enum {
-    TPMSTxRxStateIDLE,
-    TPMSTxRxStateRx,
-    TPMSTxRxStateTx,
-    TPMSTxRxStateSleep,
+  TPMSTxRxStateIDLE,
+  TPMSTxRxStateRx,
+  TPMSTxRxStateTx,
+  TPMSTxRxStateSleep,
 } TPMSTxRxState;
 
 typedef enum {
-    TPMSRelearnOff,
-    TPMSRelearnOn,
+  TPMSRelearnOff,
+  TPMSRelearnOn,
 } TPMSRelearn;
 
 typedef enum {
-    TPMSRelearnTypeCommon,
-    //TPMSRelearnAnotherOEM,
+  TPMSRelearnTypeCommon,
+  // TPMSRelearnAnotherOEM,
 } TPMSRelearnType;
